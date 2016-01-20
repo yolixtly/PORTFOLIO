@@ -1,0 +1,40 @@
+html {
+	font-family: 'Montserrat','Open Sans', sans-serif;
+	font-size: 1rem;
+	letter-spacing: .03rem ;
+
+}
+.content {
+	text-align: center ;
+	/*DEBUGING BORDER*/
+	border: 1px solid chocolate ; 
+}
+.masthead {
+	background-color: #4BEACA ;
+	/*Typography will have animation. change ahead*/
+	color: #FFFFFF;
+	letter-spacing: .3rem ;
+}
+.masthead-name {
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 700 ;
+	font-size: 20rem ; 
+	margin: -2.5rem auto; 
+}
+.masthead-last {
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 700 ;
+	font-size: 9rem ;
+	margin: -6rem 1rem 0;
+	letter-spacing: 1.5rem ;
+}
+.masthead-heading {
+	font-family: 'Open Sans', sans-serif ;
+	font-weight: 400 ;
+	font-size: 1.5rem ;
+	margin: -.4rem 1rem .5rem;
+}
+..projects, .icons {
+	list-style-type: none ;
+	display: inline-block;
+}
