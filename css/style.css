@@ -2,39 +2,82 @@ html {
 	font-family: 'Montserrat','Open Sans', sans-serif;
 	font-size: 1rem;
 	letter-spacing: .03rem ;
+	box-sizing: border-box;
 
 }
+body {
+	width: 100% ;
+	background-color: black ;
+}
+
 .content {
 	text-align: center ;
 	/*DEBUGING BORDER*/
 	border: 1px solid chocolate ; 
 }
-.masthead {
-	background-color: #4BEACA ;
-	/*Typography will have animation. change ahead*/
-	color: #FFFFFF;
-	letter-spacing: .3rem ;
-}
+
+/*masthead DESIGN*/
+
 .masthead-name {
 	font-family: 'Montserrat', sans-serif ;
 	font-weight: 700 ;
 	font-size: 20rem ; 
 	margin: -2.5rem auto; 
+	color: #FFFFFF;
+	letter-spacing: .3rem ;
+
 }
+
 .masthead-last {
 	font-family: 'Montserrat', sans-serif ;
 	font-weight: 700 ;
 	font-size: 9rem ;
 	margin: -6rem 1rem 0;
 	letter-spacing: 1.5rem ;
+	color: #FFFFFF;
 }
 .masthead-heading {
 	font-family: 'Open Sans', sans-serif ;
 	font-weight: 400 ;
 	font-size: 1.5rem ;
-	margin: -.4rem 1rem .5rem;
+	margin: -.4rem 1rem .5rem ;
+	color: #D9072D;
 }
-..projects, .icons {
+
+/*introduction DESIGN*/
+.introduction {
+	font-family: 'Open sans', sans-serif ;
+	font-weight: 700 ;
+	color: #F27507;
+	margin: 0 auto;
+	width: 90% ;
+	letter-spacing: .04rem ;
+	border-top: 1.5rem solid #d9048e;
+	border-bottom: 1.5rem solid #d9048e;
+	text-shadow:  .03rem .02rem 0 gray;
+	padding: 1rem 0 1rem ;
+}
+.content> p {
+	margin: -.2rem 0;
+	word-spacing: .3rem ;
+	font-size: 1.1rem;
+}
+/*CASES SECTION*/
+.cases {
+	margin: 0 auto;
+	width: 90%;
+	padding: 1rem 0 1rem;
+}
+.cases> .content> h1 {
+	color: #09768B ;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300 ;
+	font-size: 3rem ;
+	float: left ;
+	margin: .5rem 0 .5rem;
+}
+.projects, .icons {
 	list-style-type: none ;
 	display: inline-block;
+	color: white;
 }
