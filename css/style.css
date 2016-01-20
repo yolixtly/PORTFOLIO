@@ -13,7 +13,7 @@ body {
 .content {
 	text-align: center ;
 	/*DEBUGING BORDER*/
-	border: 1px solid chocolate ; 
+	/*border: 1px solid chocolate ; */
 }
 
 /*masthead DESIGN*/
@@ -74,10 +74,47 @@ body {
 	font-weight: 300 ;
 	font-size: 3rem ;
 	float: left ;
-	margin: .5rem 0 .5rem;
+	margin: .5rem 40rem 1rem .5rem;
 }
-.projects, .icons {
-	list-style-type: none ;
+.cases .projects > li {
 	display: inline-block;
-	color: white;
+	width: 33.33%;
+}
+.cases .caption {
+	color: #F27507 ;
+	font-size: 1rem ;
+	font-weight: 300 ;
+}
+
+/*footer section*/
+
+.social {
+	background-color: #09768B ;
+}
+.social h5 {
+	font-family: 'Montserrat' sans-serif ;
+	font-weight: 300 ;
+	font-size: 2rem; 
+	color: #FFFFFF;
+	padding: 1.5rem 0 0 ;
+	margin: 0 auto;
+}
+
+.icons {
+	padding: 0 0;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	list-style-type: none ; 
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 3px;
+    padding: 0 0;
+    text-align: center;
+    color:  #94BB10;
+}
+.social .icons a{
+	color: #94BB10;
+}
 }
